@@ -1,0 +1,23 @@
+# 数据集文件
+data/
+
+# 结果文件（可选，根据需要）
+results/
+
+# PyCharm配置
+.idea/
+
+# Python缓存文件
+__pycache__/
+*.pyc
+
+# Jupyter Notebook检查点
+.ipynb_checkpoints/
+
+# 虚拟环境
+venv/
+.env/
+
+# Windows系统文件
+Thumbs.db
+.DS_Store
