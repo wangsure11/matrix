@@ -38,7 +38,6 @@ matrix/
 | NAdam | Nesterov-accelerated Adam |
 | Adamax | Adam的无穷范数变体 |
 | RAdam | 修正的Adam |
-| Lookahead | 与其他优化器结合使用的元优化器 |
 
 ## 实验环境
 
@@ -46,11 +45,11 @@ matrix/
 
 ## 实验设置
 
-- 模型：ResNet18（自定义适配STL-10图像大小）
+- 模型：ResNet（自定义适配STL-10图像大小）
 - 批量大小：64
 - 训练轮数：50
 - 学习率调度器：OneCycleLR
-- 数据增强：随机裁剪、水平翻转、AutoAugment
+- 数据增强：AutoAugment
 - 正则化：CutMix、权重衰减
 - 训练设备：GPU（自动检测，若无则使用CPU）
 
